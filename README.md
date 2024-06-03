@@ -24,7 +24,7 @@
 
 * Directions to setup/install
 ```bash
-git clone https://github.com/metechmohit/Multi-Disease-Prediction/tree/main
+git clone https://github.com/metechmohit/Multi-Disease-Prediction/
 cd Multi-Disease-Prediction
 pip install -r requirements.txt
 
