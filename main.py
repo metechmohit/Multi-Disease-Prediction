@@ -17,7 +17,7 @@ parkinson_model = pickle.load(open('parkinson_model .sav', 'rb'))
 
 
 with st.sidebar:
-    selected = option_menu('Multiple Disease Prediction System',
+    selected = option_menu('Multiple Disease Prediction',
 
                            ['Diabetes Prediction',
                             'Heart Disease Prediction','Chronic kidney disease prediction','Cancer prediction',
@@ -31,7 +31,7 @@ with st.sidebar:
 if selected == 'Diabetes Prediction':
 
     # page title
-    st.title('Diabetes Prediction using ML')
+    st.title('Diabetes Prediction')
 
     # getting the input data from the user
     col1, col2, col3 = st.columns(3)
@@ -86,7 +86,7 @@ if selected == 'Diabetes Prediction':
 if selected == 'Heart Disease Prediction':
 
     # page title
-    st.title('Heart Disease Prediction using ML')
+    st.title('Heart Disease Prediction')
 
     col1, col2, col3 = st.columns(3)
 
@@ -153,7 +153,7 @@ if selected == 'Heart Disease Prediction':
 if selected == "Parkinsons Prediction":
 
     # page title
-    st.title("Parkinson's Disease Prediction using ML")
+    st.title("Parkinsons Disease Prediction")
 
     col1, col2, col3, col4, col5 = st.columns(5)
 
@@ -227,7 +227,7 @@ if selected == "Parkinsons Prediction":
     parkinsons_diagnosis = ''
 
     # creating a button for Prediction    
-    if st.button("Parkinson's Test Result"):
+    if st.button("Parkinsons Test Result"):
 
         user_input = [fo, fhi, flo, Jitter_percent, Jitter_Abs,
                       RAP, PPQ, DDP,Shimmer, Shimmer_dB, APQ3, APQ5,
@@ -247,7 +247,7 @@ if selected == "Parkinsons Prediction":
 # ckd prediction page
 if selected == 'Chronic kidney disease prediction':
     # page title
-    st.title('CKD Prediction using ML')
+    st.title('Chronic kidney disease Prediction ')
 
     # getting the input data from the user
     col1, col2, col3 ,col4 = st.columns(4)
@@ -311,7 +311,7 @@ if selected == 'Chronic kidney disease prediction':
 if selected == 'Cancer prediction':
 
     # page title
-    st.title('Cancer prediction using ML')
+    st.title('Cancer prediction')
 
     # getting the input data from the user
     col1, col2, col3, col4 = st.columns(4)
