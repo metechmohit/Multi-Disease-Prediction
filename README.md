@@ -1,4 +1,3 @@
-# Multi-Disease-Prediction
 <p align="left">
 	<h2 align="left"> Multi-Disease-Check  </h2>
 	<h4 align="left">  The Application is expected to record some user inputs, process them and predict does the user has any kind of disease,this all is made using Machine Learning Techniques.
