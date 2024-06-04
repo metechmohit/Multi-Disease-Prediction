@@ -36,6 +36,10 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
+## User Interface
+![image](https://github.com/metechmohit/Multi-Disease-Prediction/assets/123121775/d2ed2b50-eb26-4711-9a6a-4016f99cf84d)
+
+
 <br>
 
 <p align="center">
